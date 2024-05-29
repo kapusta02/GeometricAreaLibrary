@@ -1,0 +1,18 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/Highlighting/HighlightingSourceSnapshotLocation/@EntryValue">C:\Users\ASUS\AppData\Local\JetBrains\Rider2024.1\resharper-host\temp\Rider\vAny\CoverageData\_GeometricAreaLibrary.-655568843\Snapshot\snapshot.utdcvr</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ccf6cc30_002D574d_002D4d98_002D9c54_002D340fd15d1c8b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Get_Calculate_Area_With_Positive_Radius_Returns_Correct_Area" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::4C7E6E0B-8EDA-47C9-9797-CDF7FD7B99EC::net7.0::GeometricAreaLibrary.Tests.Figure.CircleTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::4C7E6E0B-8EDA-47C9-9797-CDF7FD7B99EC::net7.0::GeometricAreaLibrary.Tests.Figure.TriangleTest.Get_Calculate_Area_With_Positive_Radius_And_Correct_Three_Sides_Returns_Area&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::4C7E6E0B-8EDA-47C9-9797-CDF7FD7B99EC::net7.0::GeometricAreaLibrary.Tests.Figure.TriangleTest.Get_Calculate_Area_With_Positive_Radius_And_Correct_Two_Sides_Returns_Area&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::4C7E6E0B-8EDA-47C9-9797-CDF7FD7B99EC::net7.0::GeometricAreaLibrary.Tests.Figure.TriangleTest.Get_Calculate_Area_With_Positive_Radius_And_Correct_One_Sides_Returns_Area&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::4C7E6E0B-8EDA-47C9-9797-CDF7FD7B99EC::net7.0::GeometricAreaLibrary.Tests.Figure.TriangleTest.Get_Calculate_Area_With_Positive_Radius_And_Correct_Zero_Sides_Returns_Area&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::4C7E6E0B-8EDA-47C9-9797-CDF7FD7B99EC::net7.0::GeometricAreaLibrary.Tests.Figure.TriangleTest.Get_Calculate_Area_With_Zero_Radius_And_Correct_Zero_Sides_Returns_Area&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::4C7E6E0B-8EDA-47C9-9797-CDF7FD7B99EC::net7.0::GeometricAreaLibrary.Tests.Figure.TriangleTest.Get_Calculate_Area_With_Zero_Radius_And_Correct_Three_Sides_Returns_Area&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::4C7E6E0B-8EDA-47C9-9797-CDF7FD7B99EC::net7.0::GeometricAreaLibrary.Tests.Figure.TriangleTest.Get_Calculate_Area_With_Negative_Radius_And_Correct_Three_Sides_Returns_Area&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::4C7E6E0B-8EDA-47C9-9797-CDF7FD7B99EC::net7.0::GeometricAreaLibrary.Tests.Figure.TriangleTest.Get_Is_Right_Triangle_With_Right_Triangle_Sides_Returns_True&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::4C7E6E0B-8EDA-47C9-9797-CDF7FD7B99EC::net7.0::GeometricAreaLibrary.Tests.Figure.TriangleTest.Get_Is_Right_Triangle_With_Right_Triangle_Sides_Returns_False&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::4C7E6E0B-8EDA-47C9-9797-CDF7FD7B99EC::net7.0::GeometricAreaLibrary.Tests.MainAppTest.Get_Circle_Area_With_Valid_Input_Return_Result&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::4C7E6E0B-8EDA-47C9-9797-CDF7FD7B99EC::net7.0::GeometricAreaLibrary.Tests.MainAppTest.Get_Triangle_Area_With_Valid_Input_Return_Result&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

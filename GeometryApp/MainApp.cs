@@ -37,7 +37,7 @@ public class MainApp
         }
     }
 
-    private void CircleArea()
+    public void CircleArea()
     {
         Console.WriteLine("Enter the radius of the circle");
         if (!double.TryParse(Console.ReadLine(), out var circleRadius) || circleRadius <= 0)
@@ -51,7 +51,7 @@ public class MainApp
         Console.WriteLine($"Area of a circle: {answer}");
     }
 
-    private void TriangleArea()
+    public void TriangleArea()
     {
         Console.WriteLine("Enter first side");
         if (!double.TryParse(Console.ReadLine(), out var aSideTriangle) || aSideTriangle <= 0)

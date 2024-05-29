@@ -13,6 +13,8 @@ public class Triangle: GeometricLibrary
         _b = b;
         _c = c;
         _radius = radius;
+        if (radius == 0)
+            throw new ArgumentException("Radius must be greater than zero");
     }
 
     public override double CalculateArea()
