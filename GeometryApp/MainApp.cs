@@ -1,11 +1,9 @@
-using GeometricAreaLibrary;
+using GeometricAreaLibrary.Figure;
 
 namespace GeometryApp
 {
     public class MainApp
     {
-        private readonly GeometricLibrary _geometricLibrary = new();
-
         public void Start()
         {
             Console.WriteLine("Welcome new user");
@@ -48,7 +46,8 @@ namespace GeometryApp
                 return;
             }
 
-            var answer = _geometricLibrary.CircleArea(circleRadius);
+            var circle = new Circle(circleRadius);
+            var answer = circle.CalculateArea();
             Console.WriteLine($"Area of a circle: {answer}");
         }
 
@@ -82,7 +81,8 @@ namespace GeometryApp
                 return;
             }
 
-            var answer = _geometricLibrary.TriangleArea(aSideTriangle, bSideTriangle, cSideTriangle, triangleRadius);
+            var triangle = new Triangle(aSideTriangle, bSideTriangle, cSideTriangle, triangleRadius);
+            var answer = triangle.CalculateArea();
             Console.WriteLine($"Area of a triangle: {answer}");
         }
     }
