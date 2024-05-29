@@ -83,6 +83,9 @@ namespace GeometryApp
 
             var triangle = new Triangle(aSideTriangle, bSideTriangle, cSideTriangle, triangleRadius);
             var answer = triangle.CalculateArea();
+            var isRightTriangle = triangle.IsRightTriangle();
+            
+            Console.WriteLine(isRightTriangle ? "Triangle is rectangular" : "Triangle is not rectangular");
             Console.WriteLine($"Area of a triangle: {answer}");
         }
     }

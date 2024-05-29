@@ -19,4 +19,17 @@ public class Triangle: GeometricLibrary
     {
         return Math.Round(_a * _b * _c / (4 * _radius), 1);
     }
+
+    public bool IsRightTriangle()
+    {
+        var sides = new[] { _a, _b, _c };
+        Array.Sort(sides);
+
+        return AreClose(Math.Pow(sides[0], 2) + Math.Pow(sides[1], 2),Math.Pow(sides[2], 2));
+    }
+    
+    private bool AreClose(double d1, double d2, double delta = 1e-9)
+    {
+        return Math.Abs(d1 - d2) < delta;
+    }
 }
